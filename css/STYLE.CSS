@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto+Mono:wght@100;200&display=swap');
+body {
+margin: 0;
+font-family:'Anton', sans-serif;
+}
+
+
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(235, 161, 189);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login .flor{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+
+.left-login > h1 {
+    font-size: 3vw;
+    color: rgb(9, 9, 9);
+    border: #000000;
+}
+
+.left-image{
+width: 20vw;
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.card-login {
+    width: 50%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: rgb(233, 76, 160);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgb(202, 64, 227);
+}
+
+.card-login > h1 {
+    color:rgb(0, 0, 0);
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius:10px;
+    padding: 15px;
+    background: #eda7ff;
+    color: rgb(175, 0, 0);
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px rgb(214, 60, 145);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder {
+    color:rgb(81, 140, 207);
+}
+
+.btn-login {
+ width: 100%;
+ padding: 16px 0px;   
+ margin: 25px;
+ border: none;
+ border-radius: 8px;
+ outline: none;
+ text-transform: uppercase;
+ font-weight: 800;
+ letter-spacing: 3px;
+ color:rgb(175, 0, 0);
+ background: #ed77a8;
+ cursor: pointer;
+ box-shadow: 0px 10px 40px -12px #0f4200;
+}
+
+
+
+* {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .bg-primary-color {
+    background-color: #fff;
+  }
+  
+  .bg-secondary-color {
+    background-color: #ece8e2;
+  }
+  
+  .bg-dark-color {
+    background-color: #050505;
+  }
+  
+  .primary-color {
+    color: #050505;
+  }
+  
+  .secondary-color {
+    color: #7a7a7a;
+  }
+
+  button a {
+text-decoration: none;
+color: blueviolet;
+  }

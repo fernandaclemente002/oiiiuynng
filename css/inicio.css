@@ -1,0 +1,9 @@
+.carousel-item active {
+    width: 60%;
+    height: 60%;
+}
+
+button a  {
+text-decoration: none;
+color: darkorange;
+}
